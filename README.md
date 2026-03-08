@@ -1,4 +1,4 @@
 # JavaScript Class Assignments
 
-This repository contains all my homework and projects for the JavaScript course.
+This repository contains all Assignments for the JavaScript course.
 
