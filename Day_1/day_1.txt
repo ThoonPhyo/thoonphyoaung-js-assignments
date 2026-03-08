@@ -1,0 +1,34 @@
+Programming Language
+-output
+-variables
+-naming convension
+  -camelCase => userName, numberOfHours //used
+  -snake_case => user_name, number_of_hours //used
+  -kabat-case => user-name, number-of-hours
+  -PascalCase => UserName, NumberOfHours
+programming Language (strongly-types lanuage, loosely-typesd language)
+strongly-typed language => Java, C, C++
+string username = "John";
+number age = 23;
+age = "tewnty three"; 
+loosely-typed language => JavaScript, PHP
+let username = "Alice";
+let age = 23;
+console.log(typeof age) //number
+
+age = "twenty three"; //string
+console.log(typeof age) //string
+
+age = true; // boolean
+console.log(typeof age) //boolean
+data types
+  - underfined
+  - null
+  - string
+  - number
+  - boolean
+  - array
+  - object
+
+Operators
+ -arithemtic Operators[+,-,*,/,%]
