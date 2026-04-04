@@ -22,3 +22,18 @@ if (customers_age >= 60 && !is_member) {
 } else {
   console.log("Sorry, can't get any discount");
 }
+
+// tr method
+let age = 40;
+let isMember = true;
+if (age >= 60 && isMember) {
+  console.log(
+    "You are eligible for both 20% senior discount and 10% memebr discount",
+  );
+} else if (age >= 60) {
+  console.log("You are eligible for 20% senior discount ");
+} else if (isMember) {
+  console.log("You are eligible for 10% member discount");
+} else {
+  console.log("sorry, you are not eligible for any discount");
+}

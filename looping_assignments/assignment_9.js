@@ -1,20 +1,17 @@
 // Password Validation (While Loop)
+const prompt = require("prompt-sync")();
 
-const prompt = require("prompt-sync")(); // Import the prompt module
+let userPassword = ""; // Renamed from 'password' to be more descriptive
+let isPasswordValid = false; // Using camelCase
 
-let password = "";
-let isValid = false;
+while (!isPasswordValid) {
+  userPassword = prompt("Enter a password (must be at least 8 characters): ");
 
-while (!isValid) {
-  password = prompt("Enter a password (must be at least 8 characters): ");
-
-  if (password.length >= 8) {
-    isValid = true;
+  if (userPassword.length >= 8) {
+    isPasswordValid = true;
   } else {
     console.log("Password is too short. Try again.");
   }
 }
 
-if (isValid) {
-  console.log("Password is valid!");
-}
+console.log("Password is valid!");

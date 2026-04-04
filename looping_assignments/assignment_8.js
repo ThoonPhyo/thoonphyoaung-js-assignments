@@ -1,6 +1,6 @@
 // Shopping cart total
 
-// items' list
+// items list
 const cart = [
   { item: "Laptop", price: 1200 },
   { item: "Headphones", price: 100 },
@@ -8,13 +8,13 @@ const cart = [
   { item: "Keyboard", price: 75 },
 ];
 
-// total cost
-let total_cost = 0;
+// Total cost (Changed from total_cost to totalCost)
+let totalCost = 0;
 
-// looping
+// Looping
 for (let i = 0; i < cart.length; i++) {
-  total_cost += cart[i].price;
+  totalCost += cart[i].price;
 }
 
 // Display the result
-console.log("Total cost: " + total_cost);
+console.log("Total cost: " + totalCost);

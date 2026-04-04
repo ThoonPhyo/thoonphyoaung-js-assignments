@@ -12,3 +12,12 @@ if (buy_product <= product_stock) {
 } else {
   console.log("Sorry, Out of Stock!");
 }
+
+// tr method
+let stock = 10;
+let buyProduct = 10;
+if (buyProduct <= stock) {
+  console.log("The order can be fulfilled");
+} else {
+  console.log("Insufficient stock!");
+}
